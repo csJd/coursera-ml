@@ -57,6 +57,19 @@ O(kn²) | O(n³), need to calculate inverse of X'X
 Works well when n is large | Slow if n is very large
 
 ---
+#### Logistic regression
+Logistic Function (Sigmoid Function) :
+![][LRHR]
+
+Cost function:
+![][LRCF1]
+![][LRCF]
+
+---
+#### Overfitting
+> overfitting, or high variance, is caused by a hypothesis function that fits the available data but does not generalize well to predict new data. 
+
+---
 ### Unsupervised learning 
 > Problems where wo are not told what the desired output is
 
@@ -73,3 +86,9 @@ Works well when n is large | Slow if n is very large
 [FS]: http://latex.codecogs.com/gif.latex?x_i:=\dfrac{x_i-\mu_i}{s_i}
 
 [NE]: http://latex.codecogs.com/gif.latex?\theta=(X^TX)^{-1}X^Ty
+
+[LRHR]:http://latex.codecogs.com/gif.latex?h_\theta(x)=\frac{1}{1+e^{-\theta^Tx}}
+
+[LRCF1]:http://latex.codecogs.com/gif.latex?\begin{align*}&%20J(\theta)%20=%20\dfrac{1}{m}%20\sum_{i=1}^m%20\mathrm{Cost}(h_\theta(x^{(i)}),y^{(i)})%20\newline%20&%20\mathrm{Cost}(h_\theta(x),y)%20=%20-\log(h_\theta(x))%20\;%20&%20\text{if%20y%20=%201}%20\newline%20&%20\mathrm{Cost}(h_\theta(x),y)%20=%20-\log(1-h_\theta(x))%20\;%20&%20\text{if%20y%20=%200}\end{align*}
+
+[LRCF]:http://latex.codecogs.com/gif.latex?J(\theta)%20=%20-%20\frac{1}{m}%20\displaystyle%20\sum_{i=1}^m%20[y^{(i)}\log%20(h_\theta%20(x^{(i)}))%20+%20(1%20-%20y^{(i)})\log%20(1%20-%20h_\theta(x^{(i)}))]
