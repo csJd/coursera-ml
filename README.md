@@ -1,4 +1,6 @@
-## What is Machine Learning
+[Official notes is much better](https://www.coursera.org/learn/machine-learning/resources/zVvo7)
+
+### What is Machine Learning
 
 >A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E
 
@@ -22,7 +24,7 @@ Supervised learning and Unsupervised learning.
 ---
 #### Linner regression
 
-Hypothesis function: 
+Hypothesis function:
 ![][Hypothesis function]
 
 Cost function (Squared error function):
@@ -40,7 +42,7 @@ Gradient Descent for Multiple Variables:
 Feature Scaling (mean normalization):
 ![][FS]
 
-Learning rate α : 
+Learning rate α :
 >If α is too small: slow convergence
 >If α is too large: J may not decrease on every iteration and thus may not converge
 
@@ -67,17 +69,17 @@ Cost function:
 
 ---
 #### Overfitting
-> overfitting, or high variance, is caused by a hypothesis function that fits the available data but does not generalize well to predict new data. 
+> overfitting, or high variance, is caused by a hypothesis function that fits the available data but does not generalize well to predict new data.
 
 ---
-### Unsupervised learning 
+### Unsupervised learning
 > Problems where wo are not told what the desired output is
 
 
 ---
 [Hypothesis function]: http://latex.codecogs.com/gif.latex?h_\theta(x)=\theta_0+\theta_1x
 
-[Cost function]: http://latex.codecogs.com/gif.latex?J(\theta_0,\theta_1)=\frac{1}{2m}\sum_{i=1}^m(h_\theta(x_i)-y_i)^2)
+[Cost function]: http://latex.codecogs.com/gif.latex?J(\theta_0,\theta_1)=\frac{1}{2m}\sum_{i=1}^m(h_\theta(x_i)-y_i)^2
 
 [GDA]: http://latex.codecogs.com/gif.latex?\begin{align*}&%20\text{repeat%20until%20convergence:}%20\;%20\lbrace%20\newline%20\;%20&%20\theta_j%20:=%20\theta_j-\alpha\frac{\partial}{\partial\theta_j}J(\theta_0,\theta_1)\newline%20\rbrace\end{align*}
 
