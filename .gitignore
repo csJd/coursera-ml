@@ -3,3 +3,5 @@
 *.zip
 lib/
 .ipynb_checkpoints/
+.vscode/
+
