@@ -2,3 +2,4 @@
 *.mat
 *.zip
 lib/
+.ipynb_checkpoints/
