@@ -1,6 +1,7 @@
 *.pdf
 *.mat
 *.zip
+test.py
 lib/
 .ipynb_checkpoints/
 .vscode/
